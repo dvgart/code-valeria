@@ -1,0 +1,7 @@
+<VirtualHost *:80>
+    DocumentRoot "%huge-master%/public"
+    <Directory "%huge-master%/public">
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
